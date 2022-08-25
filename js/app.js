@@ -56,6 +56,7 @@ formulario.addEventListener('submit', e => {
 
     agregarTodo(todo);
     pintarTodos();
+    formulario.reset();
 });
 
 document.addEventListener('DOMContentLoaded', () => {
